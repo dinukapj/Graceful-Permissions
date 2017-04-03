@@ -10,7 +10,7 @@ compile 'com.github.dinukapj:Graceful-Permissions:master-SNAPSHOT'
 
 ### Instructions
 
-`
+```sh
 private PermissionManager permissionManager;
 ...
 
@@ -43,7 +43,7 @@ private PermissionManager permissionManager;
         }
         return;
     }
-`
+```
 
 
 
