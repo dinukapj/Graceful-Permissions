@@ -10,11 +10,11 @@ compile 'com.github.dinukapj:Graceful-Permissions:master-SNAPSHOT'
 
 ### Instructions
 
-```sh
-private PermissionManager permissionManager;
-...
+    ```sh
+    private PermissionManager permissionManager;
+    ...
 
-@Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         ...
@@ -43,7 +43,7 @@ private PermissionManager permissionManager;
         }
         return;
     }
-```
+    ```
 
 
 
