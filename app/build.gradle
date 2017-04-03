@@ -1,5 +1,16 @@
 apply plugin: 'com.android.application'
 
+group = 'com.github.dinukapj'
+
+repositories {
+    mavenCentral()
+    maven {
+        url "https://jitpack.io"
+    }
+    dependencies{
+    }
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
